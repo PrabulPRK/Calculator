@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Calculator</title>
+				<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ3npaYtRrOWaNs0Hjxdfy2CX_7yySohh49aaGJLlCvaw1m9hFE0Dz54fL&s=10" type="image/gif" sizes="16x16">
+				<link rel="stylesheet" href="style.css">
+				<script src="script.js"></script>
+</head>
+<body>
+												<div class="main text-center">
+																<h>Calculator</h>
+																<input type="text" id="screen">
+    <div class="buttons">
+    <button onclick="clearDisplay()" id="clear">C</button> 
+    <button onclick="deleteSingleNum()"><i class="fa fa-scissors" aria-hidden="true"></i></button><button onclick="buttonclick('/')">/</button> <button onclick="buttonclick('*')">*</button> </div>
+    <div class="buttons"> <button onclick="buttonclick(7)">7</button> <button onclick="buttonclick(8)">8</button> <button onclick="buttonclick(9)">9</button> <button onclick="buttonclick('-')">-</button> </div>
+    <div class="buttons"> <button onclick="buttonclick(4)">4</button> <button onclick="buttonclick(5)">5</button> <button onclick="buttonclick(6)">6</button> <button onclick="buttonclick('+')">+</button> </div>
+    <div class="buttons"> <button onclick="buttonclick(1)">1</button> <button onclick="buttonclick(2)">2</button> <button onclick="buttonclick(3)">3</button> <button onclick="buttonclick('.')">.</button> </div>
+    <div class="buttons"> <button onclick="buttonclick(0)">0</button> <button onclick="buttonclick('00')">00</button> <button onclick="equalClick()" id="equalTo">=</button> </div>
+</div>
+																</div>
+												</div>
+				<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
+<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+</body>
+</html>
